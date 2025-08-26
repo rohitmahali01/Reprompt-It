@@ -24,7 +24,7 @@ Works in normal textareas, rich-text editors, **Monaco-based editors (e.g. AI St
 
 | Original | After **Rephrase → Concise** |
 |----------|-----------------------------|
-| Despite the myriad challenges presented by unprecedented global circumstances, ... | Despite global challenges, our resilient workforce achieved remarkable milestones. |
+| Despite the myriad challenges presented by unprecedented global circumstances, ... | Despite numerous unprecedented global challenges... |
 
 *(Add your own screenshots/gif in the `screens/` folder and link them here)*
 
