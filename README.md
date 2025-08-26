@@ -126,8 +126,3 @@ No host-permissions (`<all_urls>`) are requested; scripts run only in the tab yo
 5. Open a Pull Request
 
 ---
-
-
-[8](https://github.com/SimGus/chrome-extension-v3-starter)
-[9](https://chromewebstore.google.com/detail/bolt-to-github/pikdepbilbnnpgdkdaaoeekgflljmame?hl=en)
-[10](https://cloud.google.com/blog/products/serverless/extending-cloud-code-with-custom-templates)
