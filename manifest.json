@@ -23,7 +23,7 @@
       "description": "Open extension popup"
     },
     "toggle_provider": {
-      "suggested_key": { "default": "Ctrl+Shift+M" },
+      "suggested_key": { "default": "Ctrl+M" },
       "description": "Toggle provider (OpenAI ↔ Gemini)"
     }
   },
@@ -34,3 +34,4 @@
     { "resources": ["models.js"], "matches": ["<all_urls>"] }
   ]
 }
+
