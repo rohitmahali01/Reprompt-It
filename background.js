@@ -195,7 +195,7 @@ async function callGemini(key, model, tone, prompt) {
           {
             role: "user",
             parts: [
-              { text: `Rewrite the following text in a ${tone} style:\n\n${prompt}` }
+              { text: `Rewrite the following text in a ${tone} style and Return ONLY the rewritten text:\n\n${prompt}` }
             ]
           }
         ],
