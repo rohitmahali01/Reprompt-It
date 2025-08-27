@@ -119,6 +119,6 @@ Access through:
 ## Support
 
 ### Contact
-- Technical Support: [email]
+- Technical Support: [rohit.mahali633@gamil.com]
 - Bug Reports: [GitHub Issues]
-- Feature Requests: [GitHub Discussions]
+- Feature Requests: [rohit.mahali633@gamil.com]
