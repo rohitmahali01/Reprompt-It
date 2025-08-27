@@ -18,7 +18,7 @@
 
 ## Why Reprompt-It?
 
-**Primary Use Case**: Improve your prompts and written communication instantly. Whether you're crafting AI prompts, writing emails, or creating content, Reprompt-It helps you transform your text into more effective, professional, or detailed versions.
+**Primary Use Case**: Improve your prompts and written communication instantly. Whether you're crafting AI prompts, writing emails, or creating content, Reprompt-It helps you transform your text into more effective, professional, or elaborative versions.
 
 ### Perfect for AI Platform Users
 Reprompt-It works seamlessly on all major AI platforms where you write prompts:
@@ -45,7 +45,7 @@ Reprompt-It works seamlessly on all major AI platforms where you write prompts:
 
 ### Smart Text Processing
 - **Three Writing Styles**:
-  - **Detailed**: Expand and elaborate on content
+  - **Elaborative**: Expand and elaborate on content
   - **Concise**: Summarize and compress text
   - **Professional**: Enhance tone and formality
 
@@ -117,7 +117,7 @@ Reprompt-It works seamlessly on all major AI platforms where you write prompts:
 ### Basic Usage
 1. **Select Text**: Highlight any text on a webpage
 2. **Right-Click**: Open the context menu
-3. **Choose Style**: Select "Rephrase → [Detailed/Concise/Professional]" & more styles incoming (^-^)
+3. **Choose Style**: Select "Rephrase → [Elaborative/Concise/Professional]" & more styles incoming (^-^)
 4. **Wait**: The text will be replaced with the rephrased version
 5. **Success**: A notification will confirm the operation
 
@@ -143,7 +143,7 @@ Compatible with:
 
 **Original**: "The cat is on the mat"
 
-**Detailed**: "The domestic feline is currently positioned and resting comfortably on the woven floor covering"
+**Elaborative**: "The domestic feline is currently positioned and resting comfortably on the woven floor covering"
 
 **Concise**: "Cat on mat"
 
