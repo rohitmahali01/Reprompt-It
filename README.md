@@ -63,18 +63,6 @@ Reprompt-It works seamlessly on all major AI platforms where you write prompts:
 - XSS protection and response validation
 - Minimal permissions principle
 
-## Table of Contents
-
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [Supported Models](#-supported-models)
-- [Security](#-security)
-- [Development](#-development)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Support](#-support)
-
 ## Installation
 
 ### Option 1: From Chrome Web Store (Recommended)
