@@ -1,4 +1,4 @@
-/* Rephrase-It — background.js (v0.5.0) */
+/* Reprompt-It — background.js (v0.5.0) */
 
 import { OPENAI_MODELS, GEMINI_MODELS } from "./models.js";
 
@@ -25,7 +25,7 @@ chrome.commands.onCommand.addListener(async cmd => {
   chrome.notifications.create({
     type: "basic",
     iconUrl: "icon128.png",
-    title: "Rephrase-It",
+    title: "Reprompt-It",
     message: `Provider switched to ${next.toUpperCase()}`
   });
 });
@@ -333,3 +333,4 @@ async function callGemini(key, model, tone, prompt) {
     throw error;
   }
 }
+
