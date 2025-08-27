@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Reprompt-It",
   "version": "0.5.0",
-  "description": "Right-click selected text to rephrase it as Detailed, Concise, or Professional using GPT-4/5 or Gemini 2.x.",
+  "description": "Right-click selected text to rephrase it as Elaborative, Concise, or Professional using GPT-4/5 or Gemini 2.x.",
   "permissions": [
     "contextMenus",
     "activeTab",
@@ -39,4 +39,5 @@
     { "resources": ["models.js"], "matches": ["chrome-extension://*/*"] }
   ]
 }
+
 
