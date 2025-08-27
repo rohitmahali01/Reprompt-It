@@ -27,11 +27,14 @@
       "description": "Toggle provider (OpenAI ↔ Gemini)"
     }
   },
+  
+  "action": {
+    "default_title": "Rephrase-It",
+    "default_popup": "popup.html"
+  },
 
-  "action": { "default_title": "Rephrase-It" },
 
   "web_accessible_resources": [
     { "resources": ["models.js"], "matches": ["<all_urls>"] }
   ]
 }
-
