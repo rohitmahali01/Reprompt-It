@@ -77,7 +77,7 @@ Access through:
 4. View transformed text instantly
 
 ### Keyboard Controls
-- Provider Toggle: `Ctrl+Shift+M` (Windows/Linux)
+- Provider Toggle: `Ctrl+M` (Windows/Linux)
 
 ## Technical Specifications
 
