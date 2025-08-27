@@ -123,4 +123,3 @@ No host permissions (`<all_urls>`) are requested; scripts run only in the tab yo
 ---
 
 Made with ❤️ by *Rohit Mahali* — happy prompting!
-```
