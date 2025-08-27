@@ -8,7 +8,7 @@ Works in normal textareas, rich-text editors, **Monaco-based editors (e.g. AI St
 
 ## 💡 Features
 * **Two providers** — OpenAI (GPT-4.1.x) *or* Google Gemini 2.x.  
-  Switch in Options or hit **Ctrl + Shift + M** to flip instantly.
+  Switch in Options or hit **Ctrl + M** to flip instantly.
 * **Model pickers** — choose any exposed GPT/Gemini version; defaults are stored per provider.
 * **Three tones** out-of-the-box: *Detailed, Concise, Professional*  
   (add more by extending `TONES` in `background.js`).
