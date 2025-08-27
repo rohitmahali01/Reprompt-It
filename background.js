@@ -2,7 +2,7 @@
 
 import { OPENAI_MODELS, GEMINI_MODELS } from "./models.js";
 
-const TONES = ["Detailed", "Concise", "Professional"];
+const TONES = ["Elaborative", "Concise", "Professional"];
 
 /*──────── context-menu ────────*/
 chrome.runtime.onInstalled.addListener(() => {
@@ -354,3 +354,4 @@ async function callGemini(key, model, tone, prompt) {
     throw error;
   }
 }
+
