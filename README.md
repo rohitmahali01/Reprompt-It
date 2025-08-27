@@ -150,6 +150,8 @@ Compatible with:
 | GPT-4.1 Mini | Balanced performance | General use, cost-effective |
 | GPT-4.1 Nano | Fast responses | Quick rephrasing, simple tasks |
 
+**Note for OpenAI Users**: OpenAI does not offer a free tier. All models require a paid API key with usage-based pricing. New users typically receive initial credits, but ongoing usage requires payment.
+
 ### Google Gemini Models
 | Model | Description | Use Case | Free Tier RPM | Free Tier TPM | Free Tier RPD |
 |-------|-------------|----------|---------------|---------------|---------------|
