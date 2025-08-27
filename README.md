@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rephrase-It Chrome Extension
+# Reprompt-It Chrome Extension
 
 </div>
 <div align="center">
@@ -8,11 +8,11 @@
 **Intelligent text rephrasing powered by OpenAI GPT and Google Gemini**
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
-[![Version](https://img.shields.io/badge/version-0.5.1-green)](https://github.com/yourusername/rephrase-it)
+[![Version](https://img.shields.io/badge/version-0.5.1-green)](https://github.com/yourusername/reprompt-it)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Security](https://img.shields.io/badge/security-audited-green)](SECURITY_FIXES.md)
 
-*Transform your writing with AI-powered rephrasing directly in your browser*
+*Transform your prompts and any writing with AI-powered rephrasing directly in your browser*
 
 </div>
 
