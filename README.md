@@ -1,7 +1,5 @@
 # Rephrase-It Chrome Extension
 
-<div align="center">
-
 **Intelligent text rephrasing powered by OpenAI GPT and Google Gemini**
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
