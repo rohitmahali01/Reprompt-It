@@ -1,7 +1,7 @@
 # Security Fixes and Improvements
 
 ## Overview
-This document outlines the security vulnerabilities that were identified and fixed in the Rephrase-It Chrome extension.
+This document outlines the security vulnerabilities that were identified and fixed in the Reprompt-It Chrome extension.
 
 ## Critical Issues Fixed ✅
 
@@ -110,4 +110,5 @@ This document outlines the security vulnerabilities that were identified and fix
 
 **Version**: Fixed v0.5.1  
 **Date**: August 2025  
+
 **Security Review**: Complete
