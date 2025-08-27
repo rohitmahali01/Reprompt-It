@@ -1,14 +1,38 @@
 /* global chrome */
-const keyInput = document.getElementById("key");
-const status = document.getElementById("status");
+import { OPENAI_MODELS, GEMINI_MODELS } from "./models.js";
 
-chrome.storage.sync.get("OPENAI_KEY").then(({ OPENAI_KEY }) => {
-  if (OPENAI_KEY) keyInput.value = OPENAI_KEY;
-});
+const keyInput     = document.getElementById("key");
+const gKeyInput    = document.getElementById("gkey");
+const providerSel  = document.getElementById("provider");
+const openaiSel    = document.getElementById("openaiModel");
+const geminiSel    = document.getElementById("geminiModel");
+const status       = document.getElementById("status");
 
+/* populate model dropdowns */
+OPENAI_MODELS.forEach(m => openaiSel.add(new Option(m.label, m.id)));
+GEMINI_MODELS.forEach(m => geminiSel.add(new Option(m.label, m.id)));
+
+/* load stored prefs */
+chrome.storage.sync.get(
+  ["OPENAI_KEY","GOOGLE_KEY","PROVIDER","OPENAI_MODEL","GEMINI_MODEL"],
+  res => {
+    if (res.OPENAI_KEY)   keyInput.value  = res.OPENAI_KEY;
+    if (res.GOOGLE_KEY)   gKeyInput.value = res.GOOGLE_KEY;
+    if (res.PROVIDER)     providerSel.value = res.PROVIDER;
+    if (res.OPENAI_MODEL) openaiSel.value = res.OPENAI_MODEL;
+    if (res.GEMINI_MODEL) geminiSel.value = res.GEMINI_MODEL;
+  }
+);
+
+/* save handler */
 document.getElementById("save").onclick = () => {
-  const key = keyInput.value.trim();
-  chrome.storage.sync.set({ OPENAI_KEY: key }).then(() => {
+  chrome.storage.sync.set({
+    OPENAI_KEY:   keyInput.value.trim(),
+    GOOGLE_KEY:   gKeyInput.value.trim(),
+    PROVIDER:     providerSel.value,
+    OPENAI_MODEL: openaiSel.value,
+    GEMINI_MODEL: geminiSel.value
+  }, () => {
     status.textContent = "Saved!";
     setTimeout(() => (status.textContent = ""), 1500);
   });
