@@ -37,3 +37,26 @@ document.getElementById("save").onclick = () => {
     setTimeout(() => (status.textContent = ""), 1500);
   });
 };
+
+// Listen for storage changes
+chrome.storage.onChanged.addListener((changes, namespace) => {
+  for (let [key, { newValue }] of Object.entries(changes)) {
+    switch(key) {
+      case 'defaultProvider':
+        document.getElementById('provider').value = newValue;
+        break;
+      case 'openaiModel':
+        document.getElementById('openaiModel').value = newValue;
+        break;
+      case 'openaiKey':
+        document.getElementById('key').value = newValue;
+        break;
+      case 'geminiModel':
+        document.getElementById('geminiModel').value = newValue;
+        break;
+      case 'geminiKey':
+        document.getElementById('gkey').value = newValue;
+        break;
+    }
+  }
+});
