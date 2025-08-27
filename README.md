@@ -1,5 +1,9 @@
 # Rephrase-It Chrome Extension
 
+<div align="center">
+
+![Rephrase-It Logo](https://via.placeholder.com/150x150?text=Rephrase-It)
+
 **Intelligent text rephrasing powered by OpenAI GPT and Google Gemini**
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
@@ -11,34 +15,34 @@
 
 </div>
 
-## 🚀 Features
+## Features
 
-### 🤖 **Multi-AI Provider Support**
+### Multi-AI Provider Support
 - **OpenAI Integration**: GPT-4.1, GPT-4.1 Mini, and GPT-4.1 Nano models
 - **Google Gemini**: 2.0 and 2.5 series models with multiple performance tiers
 - **Seamless Switching**: Toggle between providers with `Ctrl+M`
 
-### ✨ **Smart Text Processing**
+### Smart Text Processing
 - **Three Writing Styles**:
-  - 📝 **Detailed**: Expand and elaborate on content
-  - 🎯 **Concise**: Summarize and compress text
-  - 👔 **Professional**: Enhance tone and formality
+  - **Detailed**: Expand and elaborate on content
+  - **Concise**: Summarize and compress text
+  - **Professional**: Enhance tone and formality
 
-### 🔧 **Universal Compatibility**
-- ✅ Standard web pages and forms
-- ✅ Monaco Editor (VS Code online, CodePen, etc.)
-- ✅ Text areas and input fields
-- ✅ Rich text editors
-- ✅ Content-editable elements
+### Universal Compatibility
+- Standard web pages and forms
+- Monaco Editor (VS Code online, CodePen, etc.)
+- Text areas and input fields
+- Rich text editors
+- Content-editable elements
 
-### 🛡️ **Security & Privacy**
-- 🔒 Secure local storage for API keys
-- 🚫 No data persistence or logging
-- ✅ Input validation and sanitization
-- 🛡️ XSS protection and response validation
-- 📍 Minimal permissions principle
+### Security & Privacy
+- Secure local storage for API keys
+- No data persistence or logging
+- Input validation and sanitization
+- XSS protection and response validation
+- Minimal permissions principle
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#-installation)
 - [Configuration](#-configuration)
@@ -50,7 +54,7 @@
 - [License](#-license)
 - [Support](#-support)
 
-## 🔧 Installation
+## Installation
 
 ### Option 1: From Chrome Web Store (Recommended)
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) *(Coming Soon)*
@@ -74,7 +78,7 @@
    - Look for the Rephrase-It icon in your extensions toolbar
    - Right-click on any text to see the context menu options
 
-## ⚙️ Configuration
+## Configuration
 
 ### 1. API Key Setup
 
@@ -99,7 +103,7 @@
 - `Ctrl+Shift+R`: Open extension popup
 - `Ctrl+M`: Toggle between OpenAI and Gemini providers
 
-## 🎯 Usage
+## Usage
 
 ### Basic Usage
 1. **Select Text**: Highlight any text on a webpage
@@ -136,7 +140,7 @@ Compatible with:
 
 **Professional**: "The cat is positioned on the mat"
 
-## 🤖 Supported Models
+## Supported Models
 
 ### OpenAI Models
 | Model | Description | Use Case |
@@ -154,26 +158,26 @@ Compatible with:
 | Gemini 2.0 Flash | Previous generation | Reliable performance |
 | Gemini 2.0 Flash-Lite | Lightweight legacy | Basic rephrasing |
 
-## 🛡️ Security
+## Security
 
 This extension implements comprehensive security measures:
 
 ### Data Protection
-- ✅ **Local Storage**: API keys stored locally, never synced
-- ✅ **Input Validation**: All inputs sanitized and validated
-- ✅ **Response Filtering**: AI responses checked for malicious content
-- ✅ **Timeout Protection**: 30-second timeouts prevent hanging requests
+- **Local Storage**: API keys stored locally, never synced
+- **Input Validation**: All inputs sanitized and validated
+- **Response Filtering**: AI responses checked for malicious content
+- **Timeout Protection**: 30-second timeouts prevent hanging requests
 
 ### Privacy Guarantees
-- 🚫 **No Data Collection**: We don't store or log your text
-- 🚫 **No Analytics**: No tracking or usage analytics
-- 🚫 **No Third-Party Services**: Direct API communication only
-- ✅ **Your Keys, Your Control**: You own and control your API keys
+- **No Data Collection**: We don't store or log your text
+- **No Analytics**: No tracking or usage analytics
+- **No Third-Party Services**: Direct API communication only
+- **Your Keys, Your Control**: You own and control your API keys
 
 ### Security Audit
 See [SECURITY_FIXES.md](SECURITY_FIXES.md) for detailed security improvements and audit results.
 
-## 🔨 Development
+## Development
 
 ### Prerequisites
 - Node.js 16+ (for development tools)
@@ -223,7 +227,7 @@ zip -r rephrase-it-v0.5.1.zip . -x "*.git*" "node_modules/*" "*.md"
 3. **Security Testing**: Test input validation and error handling
 4. **Browser Testing**: Test across different websites and editors
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these guidelines:
 
@@ -247,16 +251,16 @@ We welcome contributions! Please follow these guidelines:
 - Provide steps to reproduce the issue
 - Include error messages if any
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 ### Get Help
-- 📧 **Email**: rohit.mahali633@gmail.com
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/rephrase-it/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/rephrase-it/discussions)
+- **Email**: rohit.mahali633@gmail.com
+- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/rephrase-it/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/rephrase-it/discussions)
 
 ### FAQ
 
@@ -284,8 +288,8 @@ A: We don't collect any data. All processing happens locally or directly with AI
 
 <div align="center">
 
-**Made with ❤️ for better writing**
+**Made with care for better writing**
 
-[⭐ Star this repo](https://github.com/yourusername/rephrase-it) if you find it helpful!
+[Star this repo](https://github.com/yourusername/rephrase-it) if you find it helpful!
 
 </div>
