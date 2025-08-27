@@ -16,6 +16,26 @@
 
 </div>
 
+## Why Reprompt-It?
+
+**Primary Use Case**: Improve your prompts and written communication instantly. Whether you're crafting AI prompts, writing emails, or creating content, Reprompt-It helps you transform your text into more effective, professional, or detailed versions.
+
+### Perfect for AI Platform Users
+Reprompt-It works seamlessly on all major AI platforms where you write prompts:
+- **ChatGPT** - Enhance your prompts before submitting
+- **Gemini AI Studio** - Refine your queries for better results
+- **Perplexity** - Improve your research questions
+- **Grok** - Optimize your conversations
+- **Claude** - Perfect your prompt engineering
+- **Any text input field** - Works universally across the web
+
+### Why Use Reprompt-It?
+- **Better AI Responses**: Well-crafted prompts lead to better AI outputs
+- **Time Saving**: No need to manually rewrite prompts multiple times
+- **Consistency**: Maintain professional tone across all communications
+- **Learning Tool**: See how your text can be improved and learn better writing patterns
+- **Universal**: One tool that works everywhere you type
+
 ## Features
 
 ### Multi-AI Provider Support
