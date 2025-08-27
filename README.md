@@ -151,14 +151,17 @@ Compatible with:
 | GPT-4.1 Nano | Fast responses | Quick rephrasing, simple tasks |
 
 ### Google Gemini Models
-| Model | Description | Use Case |
-|-------|-------------|----------|
-| Gemini 2.5 Pro | Most capable model | Advanced rephrasing, complex text |
-| Gemini 2.5 Flash | Fast and efficient | Balanced performance |
-| Gemini 2.5 Flash-Lite | Lightweight version | Quick responses |
-| Gemini 2.0 Flash | Previous generation | Reliable performance |
-| Gemini 2.0 Flash-Lite | Lightweight legacy | Basic rephrasing |
+| Model | Description | Use Case | Free Tier RPM | Free Tier TPM | Free Tier RPD |
+|-------|-------------|----------|---------------|---------------|---------------|
+| Gemini 2.5 Pro | Most capable model | Advanced rephrasing, complex text | 5 | 250,000 | 100 |
+| Gemini 2.5 Flash | Fast and efficient | Balanced performance | 10 | 250,000 | 250 |
+| Gemini 2.5 Flash-Lite | Lightweight version | Quick responses | 15 | 250,000 | 1,000 |
+| Gemini 2.0 Flash | Previous generation | Reliable performance | 15 | 1,000,000 | 200 |
+| Gemini 2.0 Flash-Lite | Lightweight legacy | Basic rephrasing | 30 | 1,000,000 | 200 |
 
+**For Free Tier Users**: We recommend **Gemini 2.5 Flash-Lite** for the best balance of performance and usage limits (15 RPM, 1,000 RPD). If you need higher request rates, consider **Gemini 2.0 Flash-Lite** (30 RPM) for basic rephrasing tasks.
+
+*RPM = Requests Per Minute, TPM = Tokens Per Minute, RPD = Requests Per Day*
 ## Security
 
 This extension implements comprehensive security measures:
