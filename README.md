@@ -65,15 +65,15 @@
 ### Option 2: Developer Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/rohitmahali01/Rephrase-It
-   cd Rephrase-It
+   git clone https://github.com/rohitmahali01/Reprompt-It
+   cd Reprompt-It
    ```
 
 2. **Load in Chrome**
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" (top-right toggle)
    - Click "Load unpacked"
-   - Select the `rephrase-it` directory
+   - Select the `Reprompt-It` directory
 
 3. **Verify Installation**
    - Look for the Rephrase-It icon in your extensions toolbar
@@ -185,7 +185,7 @@ See [SECURITY_FIXES.md](SECURITY_FIXES.md) for detailed security improvements an
 
 ### Project Structure
 ```
-rephrase-it/
+Reprompt-It/
 ├── manifest.json          # Extension manifest
 ├── background.js          # Service worker (main logic)
 ├── content.js            # Content script (UI notifications)
@@ -218,7 +218,7 @@ We welcome contributions! Please follow these guidelines:
 - Follow security best practices
 
 ### Reporting Issues
-- Use the [GitHub Issues](https://github.com/yourusername/rephrase-it/issues) page
+- Use the [GitHub Issues](https://github.com/rohitmahali01/Reprompt-It/issues) page
 - Include browser version, OS, and extension version
 - Provide steps to reproduce the issue
 - Include error messages if any
@@ -231,8 +231,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Get Help
 - **Email**: rohit.mahali633@gmail.com
-- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/rephrase-it/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/rephrase-it/discussions)
+- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/Reprompt-It/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/Reprompt-It/discussions)
 
 ### FAQ
 
@@ -262,6 +262,6 @@ A: We don't collect any data. All processing happens locally or directly with AI
 
 **Made with care for better writing**
 
-[Star this repo](https://github.com/rohitmahali01/Rephrase-It) if you find it helpful!
+[Star this repo](https://github.com/rohitmahali01/Reprompt-It) if you find it helpful!
 
 </div>
