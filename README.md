@@ -40,7 +40,7 @@ Rephrase-It is a sophisticated Chrome extension leveraging OpenAI's GPT and Goog
 1. Clone the repository
 ```bash
 git clone [repository-url]
-cd chrome_extension_V3
+cd Rephrase-It
 ```
 
 2. Configure Extension in Chrome
@@ -77,8 +77,7 @@ Access through:
 4. View transformed text instantly
 
 ### Keyboard Controls
-- Provider Toggle: `Ctrl+Shift+P` (Windows/Linux)
-- Provider Toggle: `Cmd+Shift+P` (macOS)
+- Provider Toggle: `Ctrl+Shift+M` (Windows/Linux)
 
 ## Technical Specifications
 
@@ -119,22 +118,7 @@ Access through:
 
 ## Support
 
-### Documentation
-- [API Documentation](#)
-- [User Guide](#)
-- [FAQ](#)
-
 ### Contact
 - Technical Support: [email]
 - Bug Reports: [GitHub Issues]
 - Feature Requests: [GitHub Discussions]
-
-## License
-[MIT License/Your chosen license]
-
-## Contributing
-Please refer to [CONTRIBUTING.md](#) for guidelines.
-
----
-
-*Copyright © 2025 [Your Name/Organization]. All rights reserved.*
