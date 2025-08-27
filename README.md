@@ -1,5 +1,5 @@
-<div align="center">
 # Rephrase-It Chrome Extension
+<div align="center">
   
 **Intelligent text rephrasing powered by OpenAI GPT and Google Gemini**
 
@@ -61,8 +61,8 @@
 ### Option 2: Developer Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/rephrase-it.git
-   cd rephrase-it
+   git clone https://github.com/rohitmahali01/Rephrase-It
+   cd Rephrase-It
    ```
 
 2. **Load in Chrome**
@@ -174,28 +174,6 @@ This extension implements comprehensive security measures:
 ### Security Audit
 See [SECURITY_FIXES.md](SECURITY_FIXES.md) for detailed security improvements and audit results.
 
-## Development
-
-### Prerequisites
-- Node.js 16+ (for development tools)
-- Chrome/Chromium browser
-- Text editor or IDE
-
-### Development Setup
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/rephrase-it.git
-cd rephrase-it
-
-# Install development dependencies (optional)
-npm install
-
-# Load extension in Chrome
-# 1. Open chrome://extensions/
-# 2. Enable Developer mode
-# 3. Click "Load unpacked" and select this directory
-```
-
 ### Project Structure
 ```
 rephrase-it/
@@ -211,18 +189,6 @@ rephrase-it/
 ├── SECURITY_FIXES.md     # Security documentation
 └── LICENSE               # License file
 ```
-
-### Building for Production
-```bash
-# Create a zip file for Chrome Web Store
-zip -r rephrase-it-v0.5.1.zip . -x "*.git*" "node_modules/*" "*.md"
-```
-
-### Testing
-1. **Manual Testing**: Load the extension and test with various text selections
-2. **API Testing**: Verify with both OpenAI and Gemini APIs
-3. **Security Testing**: Test input validation and error handling
-4. **Browser Testing**: Test across different websites and editors
 
 ## Contributing
 
@@ -287,6 +253,6 @@ A: We don't collect any data. All processing happens locally or directly with AI
 
 **Made with care for better writing**
 
-[Star this repo](https://github.com/yourusername/rephrase-it) if you find it helpful!
+[Star this repo](https://github.com/rohitmahali01/Rephrase-It) if you find it helpful!
 
 </div>
