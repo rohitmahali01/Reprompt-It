@@ -143,7 +143,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
             editor.getModel().getLineMaxColumn(prev)
           );
         }
-        editor.executeEdits("rephrase-it", [
+        editor.executeEdits("reprompt-it", [
           { range, text: text.trimEnd(), forceMoveMarkers: true }
         ]);
         return true;
@@ -333,4 +333,5 @@ async function callGemini(key, model, tone, prompt) {
     throw error;
   }
 }
+
 
