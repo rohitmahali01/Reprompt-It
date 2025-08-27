@@ -268,7 +268,7 @@ A: We don't collect any data. All processing happens locally or directly with AI
 
 <div align="center">
 
-**Made with care for better writing**
+**Made with care for better prompting and writing**
 
 [Star this repo](https://github.com/rohitmahali01/Reprompt-It) if you find it helpful!
 
