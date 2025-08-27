@@ -1,4 +1,8 @@
+<div align="center">
+
 # Rephrase-It Chrome Extension
+
+</div>
 <div align="center">
   
 **Intelligent text rephrasing powered by OpenAI GPT and Google Gemini**
