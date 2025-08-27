@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Rephrase-It",
+  "name": "Reprompt-It",
   "version": "0.5.0",
   "description": "Right-click selected text to rephrase it as Detailed, Concise, or Professional using GPT-4/5 or Gemini 2.x.",
   "permissions": [
@@ -30,7 +30,7 @@
   },
   
   "action": {
-    "default_title": "Rephrase-It",
+    "default_title": "Reprompt-It",
     "default_popup": "popup.html"
   },
 
@@ -39,3 +39,4 @@
     { "resources": ["models.js"], "matches": ["chrome-extension://*/*"] }
   ]
 }
+
