@@ -78,23 +78,6 @@ rephrase-it/
 
 ---
 
-## 🏗️ Packing & Publishing
-
-Chrome Web Store accepts a **ZIP**, not a CRX.
-
-```
-cd rephrase-it
-zip -r ../rephrase-it.zip .
-```
-
-1. Create a developer account (one-time $5).
-2. Upload `rephrase-it.zip` in the Developer Dashboard.
-3. Fill out listing, privacy, screenshots → **Submit for review**.
-
-*(For manual CRX sideload builds: go to `chrome://extensions` → **Pack extension**; keep the generated `.pem` to sign future updates.)*
-
----
-
 ## 🔒 Permissions explained
 
 | Permission            | Why it’s needed                               |
