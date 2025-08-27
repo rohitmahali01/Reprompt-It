@@ -117,7 +117,7 @@ Reprompt-It works seamlessly on all major AI platforms where you write prompts:
 ### Basic Usage
 1. **Select Text**: Highlight any text on a webpage
 2. **Right-Click**: Open the context menu
-3. **Choose Style**: Select "Rephrase → [Detailed/Concise/Professional]"
+3. **Choose Style**: Select "Rephrase → [Detailed/Concise/Professional]" & more styles incoming (^-^)
 4. **Wait**: The text will be replaced with the rephrased version
 5. **Success**: A notification will confirm the operation
 
